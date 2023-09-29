@@ -1,0 +1,11 @@
+public class Main {
+    public static void main(String[] args)
+    {
+        int ininteialCost = 5000;
+        double intrestRate = 0.17;
+        int firstIntrestrate = (int) (ininteialCost * ininteialCost);
+        int totalFirstmonth = ininteialCost + firstIntrestrate;
+        int totalSecondmonth = totalFirstmonth + firstIntrestrate;
+        System.out.println("The total intrest rate of the first month is " + totalFirstmonth +" and the total for the second month is " + totalSecondmonth);
+    }
+}
